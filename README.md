@@ -1,4 +1,4 @@
-# E-commerce Analytics Dashboard using Apache Nifi + SQL + python + Tableau
+# E-commerce Analytics Dashboard using Apache Nifi + MYSQL + python + SQL + Tableau
 
 ## Overview
 
@@ -38,7 +38,7 @@ The project is organized into the following sections:
 ## Project Outline
 
 1. **Data Extraction**:
-   - Automated data flow with Apache NiFi to load data into the database.
+   - Automated data flow with Apache NiFi to load data into MYSQ database.
 
 2. **Data Cleaning**:
    - Cleaned and preprocessed data in Python.
@@ -47,9 +47,10 @@ The project is organized into the following sections:
 3. **Data Analysis**:
    - Used SQL queries to perform data analysis.
    - Calculated sales trends, customer segments, and repeat purchase rates.
+   - created views of the analysis
 
 4. **Data Visualization**:
-   - Utilized Tableau for creating interactive visualizations.
+   - Utilized Tableau for creating interactive visualizations of the views created in the analysis.
    - Developed charts and graphs to represent key insights.
 
 5. **Dashboard Creation**:
@@ -62,7 +63,7 @@ To run this project, you'll need:
 - Apache NiFi for data extraction.
 - A relational database (e.g., MySQL) to store and access the data.
 - Python for data cleaning and preprocessing.
-- DBeaver or VSCode for SQL queries.
+- VSCode for SQL queries.
 - Tableau for data visualization and dashboard creation.
 
 ## Usage
